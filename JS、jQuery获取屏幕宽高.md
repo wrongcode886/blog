@@ -14,7 +14,6 @@ Javascript:
 屏幕分辨率的宽： window.screen.width
 屏幕可用工作区高度： window.screen.availHeight
 屏幕可用工作区宽度： window.screen.availWidth
-
  
 
 JQuery:
@@ -29,3 +28,4 @@ alert($(window).width()); //浏览器当前窗口可视区域宽度
 alert($(document).width());//浏览器当前窗口文档对象宽度
 alert($(document.body).width());//浏览器当前窗口文档body的宽度
 alert($(document.body).outerWidth(true));//浏览器当前窗口文档body的总宽度 包括border padding margin
+
