@@ -1,0 +1,5 @@
+全套：
+step1：win + R
+step2：netsh winsock reset
+step3: ipconfig /flushdns
+step4: 重启电脑
