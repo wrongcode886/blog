@@ -1,0 +1,3 @@
+WIN+R ==> regedit
+[HKEY_LOCAL_MACHINE/SOFTWARE/Classes/] ==>
+将htm和html两个格式的默认都修改为htmlfile
