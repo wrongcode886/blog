@@ -1,0 +1,3 @@
+
+		::-moz-selection{background: #e83718;color: #ffffff;} 
+		::selection {background: #e83718;color: #ffffff;} 
