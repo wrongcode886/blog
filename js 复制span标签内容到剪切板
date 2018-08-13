@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS实现复制Div(span)的内容到剪切板</title>
+
+<script>
+function copyUrl() {
+    var Url2=document.getElementById("url").innerText;
+    var oInput = document.createElement('input');
+    oInput.value = Url2;
+    document.body.appendChild(oInput);
+    oInput.select(); // 选择对象
+    document.execCommand("Copy"); // 执行浏览器复制命令
+    oInput.style.display='none';
+    alert('复制成功');
+}
+</script>
+
+</head>
+<body>
+
+   
+<span onclick="copyUrl()" id="url">hello world</span >
+ 
+
+</body>
+</html>
